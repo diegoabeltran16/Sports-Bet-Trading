@@ -56,10 +56,88 @@ When you're ready to make this README your own, just edit this file and use the 
 Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
 
 ## Name
-Choose a self-explaining name for your project.
+# Sports-Bet-Trading
 
 ## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+Sports-Bet-Trading is a project focused on leveraging AI and machine learning to provide predictions and insights for sports betting. The project uses Python, Flask, and various other tools to manage user interactions, data collection, predictive analytics, and more.
+
+## Project Structure
+The project is organized into several directories to enhance modularity and maintainability. Below is an overview of the updated project structure:
+
+Sports-Bet-Trading
+│
+├── app
+│ └── (Python application code will be organized here)
+│
+├── config
+│ ├── gitlab
+│ │ ├── auto_devops.ndjson
+│ │ ├── ci_cd_settings.ndjson
+│ │ ├── ci_pipelines.ndjson
+│ │ ├── container_expiration_policy.ndjson
+│ │ ├── error_tracking_setting.ndjson
+│ │ ├── project_feature.ndjson
+│ │ ├── project_members.ndjson
+│ │ ├── protected_branches.ndjson
+│ │ ├── push_rule.ndjson
+│ │ ├── security_setting.ndjson
+│ │ ├── service_desk_setting.ndjson
+│ │ └── user_contributions.ndjson
+│ ├── .gitlab-ci.yml
+│ ├── GITLAB_REVISION
+│ ├── GITLAB_VERSION
+│ ├── project.json
+│ ├── project.bundle
+│ └── VERSION
+│
+├── .gitignore
+├── lfs-objects.json
+├── README.md
+└── External Libraries
+└── Scratches and Consoles
+
+
+### Directories and Files
+
+#### `app/`
+This directory will contain the main application code. It will be organized into submodules such as user management, data collection, predictive analytics, chatbot functionality, and more.
+
+#### `config/`
+This directory contains configuration files and settings for the project.
+
+- **gitlab/**: Contains GitLab-specific configuration files.
+  - `auto_devops.ndjson`: Configuration for Auto DevOps.
+  - `ci_cd_settings.ndjson`: Continuous Integration and Continuous Deployment settings.
+  - `ci_pipelines.ndjson`: Pipeline configuration.
+  - `container_expiration_policy.ndjson`: Policy for container expiration.
+  - `error_tracking_setting.ndjson`: Settings for error tracking.
+  - `project_feature.ndjson`: Feature configuration for the project.
+  - `project_members.ndjson`: Configuration for project members.
+  - `protected_branches.ndjson`: Settings for protected branches.
+  - `push_rule.ndjson`: Push rules configuration.
+  - `security_setting.ndjson`: Security settings.
+  - `service_desk_setting.ndjson`: Configuration for service desk settings.
+  - `user_contributions.ndjson`: User contributions settings.
+
+- **Project Configurations**:
+  - `.gitlab-ci.yml`: GitLab CI/CD pipeline configuration.
+  - `GITLAB_REVISION`: GitLab revision information.
+  - `GITLAB_VERSION`: GitLab version information.
+  - `project.json`: Metadata for the project.
+  - `project.bundle`: Project bundle information.
+  - `VERSION`: Version information for the project.
+
+#### Root Files
+- **`.gitignore`**: Specifies files and directories to be ignored by Git.
+- **`lfs-objects.json`**: Contains configurations related to Git Large File Storage (LFS).
+- **`README.md`**: This file. It provides an overview and documentation for the project.
+
+### How to Use
+1. **Cloning the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/sports-bet-trading.git
+   cd sports-bet-trading
+
 
 ## Badges
 On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
